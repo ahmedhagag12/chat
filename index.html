@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق المراسلة</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>مراسلة</h1>
+        </header>
+        <div class="chat-messages" id="chatMessages">
+            <!-- رسائل الدردشة ستظهر هنا -->
+        </div>
+        <form id="messageForm" class="chat-input">
+            <input type="text" id="messageInput" placeholder="اكتب رسالة..." required>
+            <button type="submit" id="sendButton"><i class="fas fa-paper-plane"></i></button>
+            <button type="button" id="whatsappButton"><i class="fab fa-whatsapp"></i></button>
+            <button type="button" id="resetButton"><i class="fas fa-redo"></i></button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
